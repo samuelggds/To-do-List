@@ -50,5 +50,9 @@ box-shadow: 1px 4px 10px 0px #00000033;
 img {
     width: 20px;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    &:hover {
+        transform: scale(1.5) translateY(-2px)
+    }
 }
 `

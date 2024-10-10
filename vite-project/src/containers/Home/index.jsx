@@ -6,7 +6,7 @@ import Verify from "../../assets/verificar.png";
 import Delete from "../../assets/excluir.png";
 
 function Home() {
-  const [list, setList] = useState([{ id: uuidv4(), task: "Nada" }]);
+  const [list, setList] = useState([]);
   const [task, setTask] = useState("");
 
   function getInput(e) {
